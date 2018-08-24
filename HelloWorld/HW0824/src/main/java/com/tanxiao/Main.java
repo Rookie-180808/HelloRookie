@@ -3,7 +3,10 @@ package com.tanxiao;
 import org.junit.Test;
 
 import java.util.Stack;
-
+/*
+第一题
+通过率100%
+ */
 public class Main {
     Stack<Integer> stack1=new Stack<Integer>();
     Stack<Integer> stack2=new Stack<Integer>();
