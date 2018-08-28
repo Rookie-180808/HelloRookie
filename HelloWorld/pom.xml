@@ -18,6 +18,8 @@
         <module>HW0811</module>
         <module>HW0824</module>
         <module>HW0825</module>
+        <module>HW0827</module>
+        <module>HW0828</module>
     </modules>
 
     <dependencies>
