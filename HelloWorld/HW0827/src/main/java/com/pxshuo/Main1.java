@@ -2,11 +2,7 @@ package com.pxshuo;
 
 import java.util.Scanner;
 
-/**
- * 城市为平行于坐标轴的正方形,输入居民的坐标,求城市最小面积
- * @author Pxshuo
- * Created on 2018/08/27 19:42
- */
+
 
 public class Main1 {
     public static void main(String[] args) {
