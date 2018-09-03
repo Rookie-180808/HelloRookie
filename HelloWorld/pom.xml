@@ -21,6 +21,7 @@
         <module>HW0827</module>
         <module>HW0828</module>
         <module>HW0831</module>
+        <module>HW0903</module>
     </modules>
 
     <dependencies>
