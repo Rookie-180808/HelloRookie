@@ -9,19 +9,31 @@ import java.util.Scanner;
 
 public class Main {
 
+//
+
     public static void main(String[] args) {
-        // 10 5 1 5 2 4 3 3 4 2 5 1
         Scanner in = new Scanner(System.in);
-        int w = in.nextInt();
-        int c = in.nextInt();
-        int[][] y = new int[c + 1][2];
-        for(int i = 1; i < c + 1; i++){
-            y[i][0] = in.nextInt();
-            y[i][1] = in.nextInt();
+        int n = in.nextInt();
+        in.nextLine();
+
+        while(in.hasNextLine()){
+            String[] line = in.nextLine().split("\\s+");
+            if (line.length == 3){
+                // put操作
+                int key = Integer.parseInt(line[1]);
+                int value = Integer.parseInt(line[2]);
+
+            } else if (line.length == 2){
+                // get 操作
+                int key = Integer.parseInt(line[1]);
+                System.out.println("get : " + key);
+            }
         }
-        printArray(y);
-        System.out.println(yn(w, c, y));
+
+
+        in.close();
     }
+
 
     private static String yn(int w, int c, int[][] y){
         int[][] r = new int[c + 1][w + 1];
