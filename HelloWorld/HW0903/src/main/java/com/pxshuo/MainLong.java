@@ -2,10 +2,6 @@ package com.pxshuo;
 
 import java.util.Scanner;
 
-/**
- * @author Pxshuo
- * Created on 2018/09/04 19:30
- */
 
 public class MainLong {
     public static void main(String[] args) {
